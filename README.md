@@ -9,5 +9,5 @@ Idea:
 Communication Method:
 - Active RFID
 
-Materials:
--
+Arduino Uno: simulate the components on a bus
+Qualcomm Dragonboard: simulate a phone using Andriod OS 5.1
