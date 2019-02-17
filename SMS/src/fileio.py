@@ -31,7 +31,7 @@ f.close()
 f = open("number.txt", "r")
 for line in listOfLines:
     linesplit = line.split("\n")
-    phoneNumber = "+1" + str(linesplit[0])
+    phoneNumber = str(linesplit[0])
     if phoneNumber not in numbersList:
         numbersList.append(phoneNumber)
 

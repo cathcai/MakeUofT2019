@@ -1,6 +1,42 @@
-# MakeUofT2019
+# RideOn
 
-Idea:
+## MakeUofT 2019
+
+### Our Project
+Transportation passes are another addition to the many devices, apps, and cards that people hold on to on a daily basis.
+RideOn strives to make this process paper-free, card-free, and hands-free by integrating this technology into our phones.
+
+#### How it works
+A person with their phone can board any form of transportation, for example, a bus, without the need to take out a transportation pass, card, nor cash. This occurs due to a two-factor authentication service that detects the individual physically boarding the bus and an RFID transceiver that receives ID and payment data automatically sent from their phone. This data is then sent to a database that records the information, allowing the transaction to take place. Once the transaction has been completed, the individual will receive a message in the form of an SMS text confirming the time of purchase, stop location, and payment amount.
+
+As a prototype, this system functions using Arduino Wireless Single-directional Communications between two RFID transceivers. T
+
+
+
+#### Hardware
+* Arduino Uno (2)
+* nRF24 Transceiver (2)
+* capacitors 100 microFarads (2)
+* breadboard (2)
+* Ultrasonic Distance Sensor HC-SR04 (1)
+
+#### Software
+* Python 3
+* C
+* Twilio Cloud Communications
+* Arduino IDE
+* Realterm
+* MongoDB
+
+
+### Next Steps
+
+
+
+
+
+
+### Past Notes
 - Communication between the Arduino Uno and the Qualcomm Dragonboard
 - Simulate a phone with RFID technology
 - Automated transactions for public transportation and for other applications
