@@ -13,8 +13,8 @@ client = Client(account_sid, auth_token)
 #print(message.sid)
 message = client.messages.create(
                               from_='+12048190137',
-                              body='body',
-                              to='+16476397556'
+                              body='Hi Leo',
+                              to='+16476690627'
                           )
 
 print(message.sid)
